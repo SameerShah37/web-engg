@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fest 2026</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+
+        .navbar {
+            background-color: #263b5e;
+        }
+
+        .navbar-brand {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        .nav-link:hover {
+            color: #f4c76b;
+        }
+
+        .hero {
+            background: linear-gradient(#0007, #0007),
+            url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .section-title {
+            color: #263b5e;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .info-card, .speaker-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000012;
+            height: 100%;
+        }
+
+        .info-icon {
+            font-size: 35px;
+            color: #477b91;
+        }
+
+        .speaker-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .role {
+            color: #477b91;
+            font-weight: bold;
+        }
+
+        .btn-main {
+            background-color: #f4c76b;
+            color: #263b5e;
+            border: none;
+            padding: 10px 22px;
+            font-weight: bold;
+        }
+
+        .register {
+            background-color: #eaf0f6;
+        }
+
+        footer {
+            background-color: #263b5e;
+            color: white;
+        }
+
+        footer a {
+            color: #f4c76b;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- 1. Header -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#home">AI Fest 2026</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#schedule">Schedule</a>
+                <a class="nav-link" href="#speakers">Speakers</a>
+                <a class="nav-link" href="#register">Register</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- 2. Hero Section -->
+<section class="hero text-center" id="home">
+    <div class="container">
+        <h1>AI Fest 2026</h1>
+        <h4>Innovate. Build. Inspire.</h4>
+
+        <p class="mt-3">
+            <i class="bi bi-calendar"></i> 12 October 2026
+        </p>
+        <p>10:00 AM | University of Haripur</p>
+
+        <a href="#register" class="btn btn-main mt-2">
+            Register Now
+        </a>
+    </div>
+</section>
+
+<!-- 3. About Event -->
+<section class="container py-5 text-center" id="about">
+    <h2 class="section-title">About the Event</h2>
+
+    <p>
+        AI Fest 2026 brings students together to explore Artificial
+        Intelligence, discover new technologies, and share creative ideas.
+    </p>
+
+    <div class="row g-4 mt-3">
+        <div class="col-md-4">
+            <div class="card info-card p-4">
+                <div class="info-icon">🤖</div>
+                <h5>Artificial Intelligence</h5>
+                <p>Explore the latest AI technologies.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card p-4">
+                <div class="info-icon">💻</div>
+                <h5>Workshops</h5>
+                <p>Learn useful technical skills.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card p-4">
+                <div class="info-icon">👥</div>
+                <h5>Networking</h5>
+                <p>Meet students and technology experts.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. Event Schedule -->
+<section class="container py-5" id="schedule">
+    <h2 class="section-title text-center">Event Schedule</h2>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Speaker</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Organizing Team</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Data Science and AI</td>
+                    <td>Fahad Qureshi</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td>Software Engineering</td>
+                    <td>Mujeeb ur Rehman</td>
+                </tr>
+                <tr>
+                    <td>02:00 PM</td>
+                    <td>Artificial Intelligence</td>
+                    <td>Saud Kyani</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- 5. Speakers -->
+<section class="container py-5" id="speakers">
+    <h2 class="section-title text-center">Our Speakers</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card speaker-card">
+                <img src="fahad qureshi.jpg"
+                     class="speaker-img" alt="Fahad Qureshi">
+
+                <div class="card-body">
+                    <p class="role mb-1">Data Scientist</p>
+                    <h5>Fahad Qureshi</h5>
+                    <p>Exploring data analysis, predictions, and real-world AI solutions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card speaker-card">
+                <img src="mujeeb.jpg"
+                     class="speaker-img" alt="Mujeeb ur Rehman">
+
+                <div class="card-body">
+                    <p class="role mb-1">Software Engineer</p>
+                    <h5>Mujeeb ur Rehman</h5>
+                    <p>Sharing ideas about software development and modern applications.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card speaker-card">
+                <img src="saud.jpg"
+                     class="speaker-img" alt="Saud Kyani">
+
+                <div class="card-body">
+                    <p class="role mb-1">Artificial Intelligence</p>
+                    <h5>Saud Kyani</h5>
+                    <p>Discussing intelligent systems and the future of AI technology.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- 6. Registration Form -->
+<section class="register py-5" id="register">
+    <div class="container">
+        <h2 class="section-title text-center">Register for AI Fest</h2>
+
+        <form class="mx-auto bg-white p-4 rounded shadow-sm"
+              style="max-width: 550px;">
+
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control mb-3"
+                   placeholder="Enter your name" required>
+
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control mb-3"
+                   placeholder="Enter your email" required>
+
+            <label class="form-label">Department</label>
+            <input type="text" class="form-control mb-3"
+                   placeholder="Enter your department" required>
+
+            <label class="form-label">Event to Attend</label>
+            <select class="form-select mb-4" required>
+                <option value="">Select an event</option>
+                <option>Opening Ceremony</option>
+                <option>Data Science and AI</option>
+                <option>Software Engineering</option>
+                <option>AI Workshop</option>
+            </select>
+
+            <button type="submit" class="btn btn-main w-100">
+                Submit Registration
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- 7. Footer -->
+<footer class="text-center py-4">
+    <div class="container">
+        <h4>AI Fest 2026</h4>
+        <p>University of Haripur</p>
+        <p>Contact: info@aifest.example</p>
+
+        <div class="mb-3">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+
+        <hr>
+        <p class="mb-0">&copy; 2026 AI Fest. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+</body>
+</html>
